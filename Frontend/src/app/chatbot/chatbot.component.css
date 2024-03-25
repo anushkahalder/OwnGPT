@@ -1,0 +1,119 @@
+/* chatbot.component.css */
+
+/* Container for the upload form */
+.upload-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Form container */
+  .upload-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Custom file upload button */
+  .custom-file-upload {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the file input */
+  .custom-file-upload input[type="file"] {
+    display: none; /* Hide the input */
+  }
+  
+  /* Style the upload button */
+  .upload-button {
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the upload button when hovered */
+  .upload-button:hover {
+    background-color: #218838; /* Darker green */
+  }
+  /* chatbot.component.css */
+/* styles.css (or your component's CSS file) */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .conversation-container {
+    width: 600px; /* Adjust as needed */
+    background-color: #fffbfb;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 60vh; /* Limit height for scrolling */
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .question {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: auto; 
+    width: 50%;
+  }
+  
+  .answer {
+    background-color: #d9f1ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    width: 70%;
+  }
+  
+  .chat-input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .chat-input-form div {
+    margin: 10px 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 550px; /* Adjust as needed */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
